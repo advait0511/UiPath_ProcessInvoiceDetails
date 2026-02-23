@@ -34,12 +34,19 @@ It processes multiple invoices, extracts structured fields, and writes the resul
 
 ## 📂 Project Structure
 
-InvoiceExtractionBot/
-├── Main.xaml
+Invoice_Document_Understanding_Advait/
+│
+├── Workflows
+│   ├── Main.xaml
+│
 ├── Data/
 │   ├── Input/
+│   │   ├── (Invoices PDF to be stored here)
 │   └── Output/
+│       └── (Excel file generated here)
+│
 ├── Screenshots/
+│
 └── README.md
 
 ---
@@ -57,4 +64,5 @@ InvoiceExtractionBot/
 - UiPath.Excel.Activities
 - UiPath.PDF.Activities
 - UiPath GenAI Activities (gpt 5.2)
+
 
