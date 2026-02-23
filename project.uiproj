@@ -1,0 +1,6 @@
+{
+  "Name": "Invoice_Document_Understanding_Advait",
+  "ProjectType": "Process",
+  "Description": "Understands and extracts key details from any invoce.",
+  "MainFile": "Workflows\\Main.xaml"
+}
