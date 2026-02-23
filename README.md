@@ -24,12 +24,37 @@ It processes multiple invoices, extracts structured fields, and writes the resul
 1. Build DataTable
 2. Loop through all PDFs
 3. Read PDF text
-4. AI extraction (Claude Haiku)
+4. AI extraction (gpt 5.2)
 5. Regex parsing
-6. Add Data Row
-7. Write to Excel
+6. Send SMTP Email
+7. Add Data Row
+8. Write to Excel
 
 ---
 
 ## 📂 Project Structure
+
+InvoiceExtractionBot/
+├── Main.xaml
+├── Data/
+│   ├── Input/
+│   └── Output/
+├── Screenshots/
+└── README.md
+
+---
+
+## 📝 How to Run
+1. Place PDFs in `Data/Input`
+2. Open the project in UiPath Studio
+3. Run `Main.xaml`
+4. Output Excel appears in `Data/Output/InvoiceDetail.xlsx`
+
+---
+
+## 🛠 Technologies Used
+- UiPath Studio
+- UiPath.Excel.Activities
+- UiPath.PDF.Activities
+- UiPath GenAI Activities (gpt 5.2)
 
