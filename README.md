@@ -34,18 +34,15 @@ It processes multiple invoices, extracts structured fields, and writes the resul
 
 ## 📂 Project Structure
 
+```text
 Invoice_Document_Understanding_Advait/
-│
-├── Workflows/
-│   └── Main.xaml
-│
 ├── Data/
-│   ├── Input/          # Place invoice PDFs here
-│   └── Output/         # Excel output generated here
-│
-├── Screenshots/        # Workflow screenshots for documentation
-│
-└── README.md           # Project documentation
+│   ├── Input/           # Place invoice PDFs here
+│   └── Output/          # Excel output (InvoiceDetail.xlsx) generated here
+├── Screenshots/         # Workflow screenshots for documentation
+├── Workflows/
+│   └── Main.xaml        # Main project entry point
+└── README.md            # Project documentation
 
 ---
 
@@ -62,6 +59,7 @@ Invoice_Document_Understanding_Advait/
 - UiPath.Excel.Activities
 - UiPath.PDF.Activities
 - UiPath GenAI Activities (gpt 5.2)
+
 
 
 
