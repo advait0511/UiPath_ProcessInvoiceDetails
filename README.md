@@ -1,6 +1,6 @@
 # Invoice Extraction Automation (UiPath + GenAI)
 
-This project automates the extraction of invoice details from PDF files using UiPath and GenAI (Claude Haiku).  
+This project automates the extraction of invoice details from PDF files using UiPath and GenAI (gpt 5.2).  
 It processes multiple invoices, extracts structured fields, and writes the results into Excel.
 
 ---
@@ -32,3 +32,4 @@ It processes multiple invoices, extracts structured fields, and writes the resul
 ---
 
 ## 📂 Project Structure
+
